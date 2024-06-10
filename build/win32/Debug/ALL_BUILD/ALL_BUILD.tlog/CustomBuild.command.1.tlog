@@ -1,0 +1,10 @@
+^D:\VSCODE\EXEMPLE4\33\FISHINGGAME\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/VSCode/exemple4/33/FishingGame -BD:/VSCode/exemple4/33/FishingGame/build --check-stamp-file D:/VSCode/exemple4/33/FishingGame/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

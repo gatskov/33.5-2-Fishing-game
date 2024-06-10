@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/VSCode/FishingGame/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/FishingGame.dir/includes_CXX.rsp -g -o CMakeFiles\\FishingGame.dir\\src\\fishing.cpp.obj -c D:\\VSCode\\FishingGame\\src\\fishing.cpp",
+  "file": "D:/VSCode/FishingGame/src/fishing.cpp",
+  "output": "CMakeFiles/FishingGame.dir/src/fishing.cpp.obj"
+},
+{
+  "directory": "D:/VSCode/FishingGame/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/FishingGame.dir/includes_CXX.rsp -g -o CMakeFiles\\FishingGame.dir\\src\\main.cpp.obj -c D:\\VSCode\\FishingGame\\src\\main.cpp",
+  "file": "D:/VSCode/FishingGame/src/main.cpp",
+  "output": "CMakeFiles/FishingGame.dir/src/main.cpp.obj"
+}
+]

@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\FishingGame.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\FishingGame.dir/objects.a @CMakeFiles\FishingGame.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\FishingGame.dir/objects.a -Wl,--no-whole-archive -o D:\VSCode\FishingGame\bin\FishingGame.exe -Wl,--out-implib,D:\VSCode\FishingGame\bin\libFishingGame.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FishingGame.dir\linkLibs.rsp
